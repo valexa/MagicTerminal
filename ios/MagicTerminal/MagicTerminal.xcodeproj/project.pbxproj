@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A7898EE1325179E003DD5A4 /* iMac.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A7898E61325179E003DD5A4 /* iMac.png */; };
+		4A7898EF1325179E003DD5A4 /* iMac@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A7898E71325179E003DD5A4 /* iMac@2x.png */; };
+		4A7898F01325179E003DD5A4 /* MacBook.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A7898E81325179E003DD5A4 /* MacBook.png */; };
+		4A7898F11325179E003DD5A4 /* MacBook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A7898E91325179E003DD5A4 /* MacBook@2x.png */; };
+		4A7898F21325179E003DD5A4 /* MacMini.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A7898EA1325179E003DD5A4 /* MacMini.png */; };
+		4A7898F31325179E003DD5A4 /* MacMini@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A7898EB1325179E003DD5A4 /* MacMini@2x.png */; };
+		4A7898F41325179E003DD5A4 /* MacPro.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A7898EC1325179E003DD5A4 /* MacPro.png */; };
+		4A7898F51325179E003DD5A4 /* MacPro@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A7898ED1325179E003DD5A4 /* MacPro@2x.png */; };
+		4A80D7501342ACEC006433ED /* return.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4A80D74F1342ACEC006433ED /* return.pdf */; };
+		4A80D7521342B0AE006433ED /* history.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4A80D7511342B0AE006433ED /* history.pdf */; };
+		4A819B591510D0530092DFEE /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A819B571510D0530092DFEE /* Icon-72.png */; };
+		4A819B5A1510D0530092DFEE /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A819B581510D0530092DFEE /* Icon-72@2x.png */; };
+		4A819C42160DF014002F4DED /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A819C41160DF014002F4DED /* Default-568h@2x.png */; };
+		4A9247DA1346059B00D9950B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A9247D91346059B00D9950B /* QuartzCore.framework */; };
+		4AA7D3E61320FDC3002B2F5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA7D3E51320FDC3002B2F5C /* UIKit.framework */; };
+		4AA7D3E81320FDC3002B2F5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA7D3E71320FDC3002B2F5C /* Foundation.framework */; };
+		4AA7D3EA1320FDC3002B2F5C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA7D3E91320FDC3002B2F5C /* CoreGraphics.framework */; };
+		4AA7D3F01320FDC3002B2F5C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4AA7D3EE1320FDC3002B2F5C /* InfoPlist.strings */; };
+		4AA7D3F31320FDC3002B2F5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA7D3F21320FDC3002B2F5C /* main.m */; };
+		4AA7D3F61320FDC3002B2F5C /* MagicTerminalAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA7D3F51320FDC3002B2F5C /* MagicTerminalAppDelegate.m */; };
+		4AA7D3FA1320FDC3002B2F5C /* MagicTerminalAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA7D3F91320FDC3002B2F5C /* MagicTerminalAppDelegate_iPhone.m */; };
+		4AA7D3FD1320FDC3002B2F5C /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AA7D3FB1320FDC3002B2F5C /* MainWindow_iPhone.xib */; };
+		4AA7D4011320FDC3002B2F5C /* MagicTerminalAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA7D4001320FDC3002B2F5C /* MagicTerminalAppDelegate_iPad.m */; };
+		4AA7D4041320FDC3002B2F5C /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AA7D4021320FDC3002B2F5C /* MainWindow_iPad.xib */; };
+		4AA7D42413210114002B2F5C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA7D42313210114002B2F5C /* MainViewController.m */; };
+		4AA7D4281321019B002B2F5C /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA7D4261321019B002B2F5C /* bg.png */; };
+		4AA7D4291321019B002B2F5C /* top.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA7D4271321019B002B2F5C /* top.png */; };
+		4AA7D42B13210534002B2F5C /* output.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA7D42A13210534002B2F5C /* output.png */; };
+		4AA7D442132116A0002B2F5C /* BonjourController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA7D4411321169F002B2F5C /* BonjourController.m */; };
+		4AC2F28D133DF889006FBC85 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC2F28A133DF889006FBC85 /* Icon.png */; };
+		4AC2F28E133DF889006FBC85 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC2F28B133DF889006FBC85 /* Icon@2x.png */; };
+		4ACDB42513421DF1009B2F86 /* search.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ACDB42413421DF1009B2F86 /* search.pdf */; };
+		4ACDB45B13423157009B2F86 /* help.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ACDB45A13423157009B2F86 /* help.pdf */; };
+		4ACDB47C134259C9009B2F86 /* minus.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ACDB479134259C9009B2F86 /* minus.pdf */; };
+		4ACDB47D134259C9009B2F86 /* plus.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ACDB47A134259C9009B2F86 /* plus.pdf */; };
+		4ACDB47E134259C9009B2F86 /* x.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ACDB47B134259C9009B2F86 /* x.pdf */; };
+		4ACDB49B13426B10009B2F86 /* Monaco.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4ACDB49A13426B10009B2F86 /* Monaco.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A01117814F1342200CE866F /* MagicTerminal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = MagicTerminal.entitlements; sourceTree = "<group>"; };
+		4A7898E61325179E003DD5A4 /* iMac.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iMac.png; sourceTree = "<group>"; };
+		4A7898E71325179E003DD5A4 /* iMac@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iMac@2x.png"; sourceTree = "<group>"; };
+		4A7898E81325179E003DD5A4 /* MacBook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MacBook.png; sourceTree = "<group>"; };
+		4A7898E91325179E003DD5A4 /* MacBook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MacBook@2x.png"; sourceTree = "<group>"; };
+		4A7898EA1325179E003DD5A4 /* MacMini.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MacMini.png; sourceTree = "<group>"; };
+		4A7898EB1325179E003DD5A4 /* MacMini@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MacMini@2x.png"; sourceTree = "<group>"; };
+		4A7898EC1325179E003DD5A4 /* MacPro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MacPro.png; sourceTree = "<group>"; };
+		4A7898ED1325179E003DD5A4 /* MacPro@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MacPro@2x.png"; sourceTree = "<group>"; };
+		4A80D74F1342ACEC006433ED /* return.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = return.pdf; sourceTree = "<group>"; };
+		4A80D7511342B0AE006433ED /* history.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = history.pdf; sourceTree = "<group>"; };
+		4A819B571510D0530092DFEE /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		4A819B581510D0530092DFEE /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		4A819C41160DF014002F4DED /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4A9247D91346059B00D9950B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4AA7D3E11320FDC3002B2F5C /* MagicTerminal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicTerminal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AA7D3E51320FDC3002B2F5C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4AA7D3E71320FDC3002B2F5C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4AA7D3E91320FDC3002B2F5C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4AA7D3ED1320FDC3002B2F5C /* MagicTerminal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MagicTerminal-Info.plist"; sourceTree = "<group>"; };
+		4AA7D3EF1320FDC3002B2F5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4AA7D3F11320FDC3002B2F5C /* MagicTerminal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MagicTerminal-Prefix.pch"; sourceTree = "<group>"; };
+		4AA7D3F21320FDC3002B2F5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4AA7D3F41320FDC3002B2F5C /* MagicTerminalAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MagicTerminalAppDelegate.h; sourceTree = "<group>"; };
+		4AA7D3F51320FDC3002B2F5C /* MagicTerminalAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagicTerminalAppDelegate.m; sourceTree = "<group>"; };
+		4AA7D3F81320FDC3002B2F5C /* MagicTerminalAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MagicTerminalAppDelegate_iPhone.h; path = iPhone/MagicTerminalAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		4AA7D3F91320FDC3002B2F5C /* MagicTerminalAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MagicTerminalAppDelegate_iPhone.m; path = iPhone/MagicTerminalAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		4AA7D3FC1320FDC3002B2F5C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		4AA7D3FF1320FDC3002B2F5C /* MagicTerminalAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MagicTerminalAppDelegate_iPad.h; path = iPad/MagicTerminalAppDelegate_iPad.h; sourceTree = "<group>"; };
+		4AA7D4001320FDC3002B2F5C /* MagicTerminalAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MagicTerminalAppDelegate_iPad.m; path = iPad/MagicTerminalAppDelegate_iPad.m; sourceTree = "<group>"; };
+		4AA7D4031320FDC3002B2F5C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		4AA7D42213210113002B2F5C /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		4AA7D42313210114002B2F5C /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		4AA7D4261321019B002B2F5C /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		4AA7D4271321019B002B2F5C /* top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = top.png; sourceTree = "<group>"; };
+		4AA7D42A13210534002B2F5C /* output.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = output.png; sourceTree = "<group>"; };
+		4AA7D4401321169E002B2F5C /* BonjourController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BonjourController.h; sourceTree = "<group>"; };
+		4AA7D4411321169F002B2F5C /* BonjourController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BonjourController.m; sourceTree = "<group>"; };
+		4AC2F28A133DF889006FBC85 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		4AC2F28B133DF889006FBC85 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		4ACDB42413421DF1009B2F86 /* search.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = search.pdf; sourceTree = "<group>"; };
+		4ACDB45A13423157009B2F86 /* help.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = help.pdf; sourceTree = "<group>"; };
+		4ACDB479134259C9009B2F86 /* minus.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = minus.pdf; sourceTree = "<group>"; };
+		4ACDB47A134259C9009B2F86 /* plus.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = plus.pdf; sourceTree = "<group>"; };
+		4ACDB47B134259C9009B2F86 /* x.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = x.pdf; sourceTree = "<group>"; };
+		4ACDB49A13426B10009B2F86 /* Monaco.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Monaco.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AA7D3DE1320FDC3002B2F5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA7D3E61320FDC3002B2F5C /* UIKit.framework in Frameworks */,
+				4AA7D3E81320FDC3002B2F5C /* Foundation.framework in Frameworks */,
+				4AA7D3EA1320FDC3002B2F5C /* CoreGraphics.framework in Frameworks */,
+				4A9247DA1346059B00D9950B /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AA7D3D61320FDC3002B2F5C = {
+			isa = PBXGroup;
+			children = (
+				4A01117814F1342200CE866F /* MagicTerminal.entitlements */,
+				4AA7D4131320FEE8002B2F5C /* Classes */,
+				4AA7D3F71320FDC3002B2F5C /* iPhone */,
+				4AA7D3FE1320FDC3002B2F5C /* iPad */,
+				4AA7D3EC1320FDC3002B2F5C /* Supporting Files */,
+				4AA7D3E41320FDC3002B2F5C /* Frameworks */,
+				4AA7D3E21320FDC3002B2F5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AA7D3E21320FDC3002B2F5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AA7D3E11320FDC3002B2F5C /* MagicTerminal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AA7D3E41320FDC3002B2F5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A9247D91346059B00D9950B /* QuartzCore.framework */,
+				4AA7D3E51320FDC3002B2F5C /* UIKit.framework */,
+				4AA7D3E71320FDC3002B2F5C /* Foundation.framework */,
+				4AA7D3E91320FDC3002B2F5C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4AA7D3EC1320FDC3002B2F5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A819C41160DF014002F4DED /* Default-568h@2x.png */,
+				4A819B571510D0530092DFEE /* Icon-72.png */,
+				4A819B581510D0530092DFEE /* Icon-72@2x.png */,
+				4AC2F28A133DF889006FBC85 /* Icon.png */,
+				4AC2F28B133DF889006FBC85 /* Icon@2x.png */,
+				4ACDB49A13426B10009B2F86 /* Monaco.ttf */,
+				4A80D7511342B0AE006433ED /* history.pdf */,
+				4A80D74F1342ACEC006433ED /* return.pdf */,
+				4ACDB479134259C9009B2F86 /* minus.pdf */,
+				4ACDB47A134259C9009B2F86 /* plus.pdf */,
+				4ACDB47B134259C9009B2F86 /* x.pdf */,
+				4ACDB45A13423157009B2F86 /* help.pdf */,
+				4ACDB42413421DF1009B2F86 /* search.pdf */,
+				4A7898E61325179E003DD5A4 /* iMac.png */,
+				4A7898E71325179E003DD5A4 /* iMac@2x.png */,
+				4A7898E81325179E003DD5A4 /* MacBook.png */,
+				4A7898E91325179E003DD5A4 /* MacBook@2x.png */,
+				4A7898EA1325179E003DD5A4 /* MacMini.png */,
+				4A7898EB1325179E003DD5A4 /* MacMini@2x.png */,
+				4A7898EC1325179E003DD5A4 /* MacPro.png */,
+				4A7898ED1325179E003DD5A4 /* MacPro@2x.png */,
+				4AA7D42A13210534002B2F5C /* output.png */,
+				4AA7D4261321019B002B2F5C /* bg.png */,
+				4AA7D4271321019B002B2F5C /* top.png */,
+				4AA7D3ED1320FDC3002B2F5C /* MagicTerminal-Info.plist */,
+				4AA7D3EE1320FDC3002B2F5C /* InfoPlist.strings */,
+				4AA7D3F11320FDC3002B2F5C /* MagicTerminal-Prefix.pch */,
+				4AA7D3F21320FDC3002B2F5C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4AA7D3F71320FDC3002B2F5C /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				4AA7D3F81320FDC3002B2F5C /* MagicTerminalAppDelegate_iPhone.h */,
+				4AA7D3F91320FDC3002B2F5C /* MagicTerminalAppDelegate_iPhone.m */,
+				4AA7D3FB1320FDC3002B2F5C /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		4AA7D3FE1320FDC3002B2F5C /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				4AA7D3FF1320FDC3002B2F5C /* MagicTerminalAppDelegate_iPad.h */,
+				4AA7D4001320FDC3002B2F5C /* MagicTerminalAppDelegate_iPad.m */,
+				4AA7D4021320FDC3002B2F5C /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		4AA7D4131320FEE8002B2F5C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4AA7D3F41320FDC3002B2F5C /* MagicTerminalAppDelegate.h */,
+				4AA7D3F51320FDC3002B2F5C /* MagicTerminalAppDelegate.m */,
+				4AA7D42213210113002B2F5C /* MainViewController.h */,
+				4AA7D42313210114002B2F5C /* MainViewController.m */,
+				4AA7D4401321169E002B2F5C /* BonjourController.h */,
+				4AA7D4411321169F002B2F5C /* BonjourController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AA7D3E01320FDC3002B2F5C /* MagicTerminal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AA7D4071320FDC3002B2F5C /* Build configuration list for PBXNativeTarget "MagicTerminal" */;
+			buildPhases = (
+				4AA7D3DD1320FDC3002B2F5C /* Sources */,
+				4AA7D3DE1320FDC3002B2F5C /* Frameworks */,
+				4AA7D3DF1320FDC3002B2F5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicTerminal;
+			productName = MagicTerminal;
+			productReference = 4AA7D3E11320FDC3002B2F5C /* MagicTerminal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AA7D3D81320FDC3002B2F5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = 4AA7D3DB1320FDC3002B2F5C /* Build configuration list for PBXProject "MagicTerminal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4AA7D3D61320FDC3002B2F5C;
+			productRefGroup = 4AA7D3E21320FDC3002B2F5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AA7D3E01320FDC3002B2F5C /* MagicTerminal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AA7D3DF1320FDC3002B2F5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA7D3F01320FDC3002B2F5C /* InfoPlist.strings in Resources */,
+				4AA7D3FD1320FDC3002B2F5C /* MainWindow_iPhone.xib in Resources */,
+				4AA7D4041320FDC3002B2F5C /* MainWindow_iPad.xib in Resources */,
+				4AA7D4281321019B002B2F5C /* bg.png in Resources */,
+				4AA7D4291321019B002B2F5C /* top.png in Resources */,
+				4AA7D42B13210534002B2F5C /* output.png in Resources */,
+				4A7898EE1325179E003DD5A4 /* iMac.png in Resources */,
+				4A7898EF1325179E003DD5A4 /* iMac@2x.png in Resources */,
+				4A7898F01325179E003DD5A4 /* MacBook.png in Resources */,
+				4A7898F11325179E003DD5A4 /* MacBook@2x.png in Resources */,
+				4A7898F21325179E003DD5A4 /* MacMini.png in Resources */,
+				4A7898F31325179E003DD5A4 /* MacMini@2x.png in Resources */,
+				4A7898F41325179E003DD5A4 /* MacPro.png in Resources */,
+				4A7898F51325179E003DD5A4 /* MacPro@2x.png in Resources */,
+				4AC2F28D133DF889006FBC85 /* Icon.png in Resources */,
+				4AC2F28E133DF889006FBC85 /* Icon@2x.png in Resources */,
+				4ACDB42513421DF1009B2F86 /* search.pdf in Resources */,
+				4ACDB45B13423157009B2F86 /* help.pdf in Resources */,
+				4ACDB47C134259C9009B2F86 /* minus.pdf in Resources */,
+				4ACDB47D134259C9009B2F86 /* plus.pdf in Resources */,
+				4ACDB47E134259C9009B2F86 /* x.pdf in Resources */,
+				4ACDB49B13426B10009B2F86 /* Monaco.ttf in Resources */,
+				4A80D7501342ACEC006433ED /* return.pdf in Resources */,
+				4A80D7521342B0AE006433ED /* history.pdf in Resources */,
+				4A819B591510D0530092DFEE /* Icon-72.png in Resources */,
+				4A819B5A1510D0530092DFEE /* Icon-72@2x.png in Resources */,
+				4A819C42160DF014002F4DED /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AA7D3DD1320FDC3002B2F5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA7D3F31320FDC3002B2F5C /* main.m in Sources */,
+				4AA7D3F61320FDC3002B2F5C /* MagicTerminalAppDelegate.m in Sources */,
+				4AA7D3FA1320FDC3002B2F5C /* MagicTerminalAppDelegate_iPhone.m in Sources */,
+				4AA7D4011320FDC3002B2F5C /* MagicTerminalAppDelegate_iPad.m in Sources */,
+				4AA7D42413210114002B2F5C /* MainViewController.m in Sources */,
+				4AA7D442132116A0002B2F5C /* BonjourController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4AA7D3EE1320FDC3002B2F5C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AA7D3EF1320FDC3002B2F5C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4AA7D3FB1320FDC3002B2F5C /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AA7D3FC1320FDC3002B2F5C /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		4AA7D4021320FDC3002B2F5C /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AA7D4031320FDC3002B2F5C /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AA7D4051320FDC3002B2F5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4AA7D4061320FDC3002B2F5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4AA7D4081320FDC3002B2F5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = MagicTerminal.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MagicTerminal-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "MagicTerminal-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4AA7D4091320FDC3002B2F5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = MagicTerminal.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MagicTerminal-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "MagicTerminal-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AA7D3DB1320FDC3002B2F5C /* Build configuration list for PBXProject "MagicTerminal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA7D4051320FDC3002B2F5C /* Debug */,
+				4AA7D4061320FDC3002B2F5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AA7D4071320FDC3002B2F5C /* Build configuration list for PBXNativeTarget "MagicTerminal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA7D4081320FDC3002B2F5C /* Debug */,
+				4AA7D4091320FDC3002B2F5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AA7D3D81320FDC3002B2F5C /* Project object */;
+}
